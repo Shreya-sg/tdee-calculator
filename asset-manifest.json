@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/tdee-calculator/static/css/main.dc285375.chunk.css",
+    "main.js": "/tdee-calculator/static/js/main.9fcca2cd.chunk.js",
+    "main.js.map": "/tdee-calculator/static/js/main.9fcca2cd.chunk.js.map",
+    "runtime-main.js": "/tdee-calculator/static/js/runtime-main.f9a543e6.js",
+    "runtime-main.js.map": "/tdee-calculator/static/js/runtime-main.f9a543e6.js.map",
+    "static/css/2.15a7a700.chunk.css": "/tdee-calculator/static/css/2.15a7a700.chunk.css",
+    "static/js/2.2c2912bb.chunk.js": "/tdee-calculator/static/js/2.2c2912bb.chunk.js",
+    "static/js/2.2c2912bb.chunk.js.map": "/tdee-calculator/static/js/2.2c2912bb.chunk.js.map",
+    "static/js/3.109c404a.chunk.js": "/tdee-calculator/static/js/3.109c404a.chunk.js",
+    "static/js/3.109c404a.chunk.js.map": "/tdee-calculator/static/js/3.109c404a.chunk.js.map",
+    "index.html": "/tdee-calculator/index.html",
+    "static/css/2.15a7a700.chunk.css.map": "/tdee-calculator/static/css/2.15a7a700.chunk.css.map",
+    "static/css/main.dc285375.chunk.css.map": "/tdee-calculator/static/css/main.dc285375.chunk.css.map",
+    "static/js/2.2c2912bb.chunk.js.LICENSE.txt": "/tdee-calculator/static/js/2.2c2912bb.chunk.js.LICENSE.txt",
+    "static/media/person_03.15cfd8c5.jpg": "/tdee-calculator/static/media/person_03.15cfd8c5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9a543e6.js",
+    "static/css/2.15a7a700.chunk.css",
+    "static/js/2.2c2912bb.chunk.js",
+    "static/css/main.dc285375.chunk.css",
+    "static/js/main.9fcca2cd.chunk.js"
+  ]
+}
