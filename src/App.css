@@ -1,3 +1,75 @@
+
+/*---Portfolio-css---*/
+.portfolio .row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.portfolio .col-md-5 {
+  background-size: cover;
+  background-position: right;
+}
+
+.portfolio h1 {
+  color: #262728;
+  font-size: 4.2vw;
+  font-weight: 800;
+  word-break: break-word;
+  line-height: 1.2em;
+  max-width: 250px;
+  margin-bottom: 30px;
+} 
+.portfolio h5 {
+  color: #68e0cf;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.portfolio p {
+  font-size: 17px;
+  padding: 0;
+  margin: 30px 0;
+  max-width: 450px;
+  color: #585858;
+  font-weight: 500;
+}
+
+.portfolio .about-sec {
+  padding: 50px 0px;
+}
+
+.portfolio .about-sec ul{
+  padding: 0;
+  list-style: none;
+}
+
+.portfolio .about-sec ul li {
+  display: inline-block;
+  width: 48%;
+}
+.portfolio .about-sec ul li p{
+  margin:8px 0px;
+}
+.portfolio .about-sec ul li p span{
+  color: #68e0cf;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-right: 5px;
+    font-size:15px;
+}
+.portfolio button.btn.btn-primary {
+  background: transparent;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 33px;
+  padding: 17px 50px;
+  text-transform: uppercase;
+}
+
+.portfolio .about-sec .col-md-7{
+  padding-left: 35px;
+}
+
 .App {
   text-align: center;
 }
@@ -12,6 +84,8 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+
 
 .App-header {
   background-color: #282c34;
