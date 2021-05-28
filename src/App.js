@@ -2,6 +2,7 @@ import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';
 import Homenew from './pages/Homenew';
+import Tdeecalculator from './pages/Tdeecalculator';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
@@ -17,6 +18,9 @@ function App() {
             <About />
           </Route>
           <Route exact path="/homenew">
+            <Homenew />
+          </Route>
+          <Route exact path="/tdeecalculator">
             <Homenew />
           </Route>
           <Route exact path="/">
