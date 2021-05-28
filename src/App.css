@@ -1,13 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+body {
+  font-family: 'poppins', sans-serif!important;
+}
 /*---Portfolio-css---*/
 .portfolio .row{
   margin-right: 0px;
   margin-left: 0px;
+
 }
 
-.portfolio .col-md-5 {
-  background-size: cover;
-  background-position: right;
+.portfolio .col-md-4 {
+  /* background-size: cover;
+  background-position: right; */
+  padding: 0;
+}
+
+.portfolio .col-md-4 .inner-bg-image {
+  background: #000;
+  height: 100%;
+  position: fixed;
+  width: 33%;
+  clip-path: circle(75% at 10% 45%);
+  -webkit-clip-path: circle(75% at 10% 45%);
+}
+
+
+
+.portfolio .col-md-4 .inner-bg-image .image-bg img{
+  width: 100%;
 }
 
 .portfolio h1 {
@@ -16,22 +37,30 @@
   font-weight: 800;
   word-break: break-word;
   line-height: 1.2em;
-  max-width: 250px;
+  max-width: 350px;
   margin-bottom: 30px;
 } 
 .portfolio h5 {
   color: #68e0cf;
-  font-size: 20px;
+  font-size: 14px;
   text-transform: uppercase;
   font-weight: 700;
 }
+.portfolio #typed-heading span{
+  color: #68e0cf;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 .portfolio p {
-  font-size: 17px;
-  padding: 0;
-  margin: 30px 0;
-  max-width: 450px;
-  color: #585858;
-  font-weight: 500;
+  font-size: 15px;
+    padding: 0;
+    margin: 30px 0;
+    max-width: 500px;
+    color: #585858;
+    font-weight: 500;
+    line-height: 35px;
 }
 
 .portfolio .about-sec {
@@ -60,14 +89,145 @@
 .portfolio button.btn.btn-primary {
   background: transparent;
   color: #000;
-  border: 1px solid #000;
+  border: 1px solid #ccc;
   border-radius: 33px;
-  padding: 17px 50px;
+  padding: 17px 35px;
   text-transform: uppercase;
+  font-weight: 800;
+  font-size: 12px;
 }
 
-.portfolio .about-sec .col-md-7{
+.portfolio .about-sec .col-md-8{
   padding-left: 35px;
+}
+
+.portfolio .col-md-10 {
+  border-right: 1px solid #ccc;
+  padding: 0;
+}
+
+.portfolio .col-md-10  .portfolio-inner {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 120px 0px 80px 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.service-sec .progressbar-container {
+  background: #ccc;
+  border-radius: 20px;
+}
+.service-sec .progress-container-main {
+  margin: 0px 0px 30px 0px;
+}
+.service-sec .progressbar-progress{
+  background-color:#68e0cf!important;
+}
+
+.service-sec .row {
+  margin-top: 25px;
+}
+.service-sec .col-md-6 {
+  padding-left: 0px;
+}
+
+.service-sec .CircularProgressbar {
+  width: 60%!important;
+}
+
+.service-sec .CircularProgressbar .CircularProgressbar-path {
+  stroke: #68e0cf!important;
+}
+.service-sec .CircularProgressbar .CircularProgressbar-text {
+  fill: #000;
+  font-size: 14px;
+}
+
+.service-sec h4 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.education-sec .row .col-md-12{
+  padding:0;
+}
+
+.education-sec .row .slick-slider.slick-initialized {
+  padding: 0;
+  margin-top: 25px;
+}
+
+.education-sec .row .col-md-12 h4{
+  max-width: 200px;
+  font-size: 18px;
+  font-weight: 800;
+}
+.education-sec .row .col-md-12 p {
+  max-width: 250px;
+}
+
+.education-sec .row .col-md-12 span{
+  color: #68e0cf;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.education-sec {
+  position: relative;
+}
+
+.education-sec button.slick-arrow.slick-prev{
+  position: absolute;
+  top: -100px;
+  left: 455px;
+  background: transparent;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+.education-sec .slick-prev:before{
+  background: transparent!important;
+  color: #68e0cf;
+}
+
+.education-sec button.slick-arrow.slick-next {
+  position: absolute;
+  background: transparent;
+  top: -102px;
+  right: 40px;
+  border: 1px solid #ccc;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.education-sec .slick-next:before {
+  color: #68e0cf;
+}
+
+.sidebar-annimation .social-icons {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+
+.sidebar-annimation .social-icons li {
+  width: 68px;
+  text-align: center;
+  margin: auto auto 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+
+.sidebar-annimation {
+  margin-top: 100px;
+}
+
+.sidebar-annimation .social-icons li i {
+  color: #68e0cf;
 }
 
 .App {
